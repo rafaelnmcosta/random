@@ -6,7 +6,7 @@ public class Principal{
 		String[] novasMusicas = {"musica1", "musica2", "musica3"};
 		comp1.definirMusicas(novasMusicas);
 
-		System.out.println("Compositor cadastrado!\nNumero de compositores: " + comp1.getTotalCompositores());
+		System.out.println("Compositor cadastrado!\nNumero de compositores: " + Compositor.getTotalCompositores());
 
 		System.out.println("O nome do compositor é " + comp1.getNome());
 		comp1.listarMusicas();
@@ -15,7 +15,7 @@ public class Principal{
 		String[] novasMusicas1 = {"musica4", "musica5", "musica6", "musica7", "musica8"};
 		comp2.definirMusicas(novasMusicas1);
 		
-		System.out.println("Compositor cadastrado!\nNumero de compositores: " + comp2.getTotalCompositores());
+		System.out.println("Compositor cadastrado!\nNumero de compositores: " + Compositor.getTotalCompositores());
 
 		System.out.println("O nome do compositor é " + comp2.getNome());
 		comp2.listarMusicas();
